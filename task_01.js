@@ -30,7 +30,7 @@ console.log(myNumber)
 
 //
 let myNull = null
-results[5].textContent = myNull
+results[5].textContent = myNull + ""
 console.log(myNull)
 
 //
