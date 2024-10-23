@@ -6,9 +6,6 @@ results[0].textContent = "Мені " + age + " років"
 console.log(age)
 
 //
-let name = "Остап"
-results[1].textContent = "Мене звати " + name
-console.log(name)
 
 //
 let isStudent = true
@@ -34,7 +31,7 @@ results[5].textContent = myNull + ""
 console.log(myNull)
 
 //
-function ex8(){
+function ex2(){
     let result = prompt("Your name?", '')
     alert('Hello, ' + result)
 }
