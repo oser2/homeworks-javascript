@@ -1,15 +1,18 @@
-let option = document.querySelectorAll("option")
+let options = document.querySelectorAll(".option")
+let results = document.querySelectorAll(".result")
 let list = document.querySelector(".list")
-let listex = document.querySelector(".listex")
 
-//
-if(option.value == "КАВА"){
-    listex.textContent = "КАВА"
+//1
+function ex1(){
+    if(options[0]){
+        results[0].textContent = "КАВА"
+    }
+    else if(options[1]){
+        results[0].textContent = "ЧАЙ"
+    }
+    else if(options[2]){
+        results[0].textContent = "СІК"
+    }
+    console.log('GHBFDSDFEWQS')
 }
-else if(option.value == "ЧАЙ"){
-    listex.textContent = "ЧАЙ"
-}
-else if(option.value == "СІК"){
-    listex.textContent = "СІК"
-}
-console.log(Number(option.value))
+

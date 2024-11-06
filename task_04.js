@@ -23,16 +23,30 @@ function ex2(){
 }
 
 //3
-
+function ex3(){
+    if(inputs[4].value.includes("JavaScript")){
+        results[2].textContent = "Текст містить слово JavaScript"
+    }
+    else{
+        results[2].textContent = "Текст не містить слово JavaScript"   
+    }
+}
 
 //4
-
+function ex4(){
+    if(+inputs[5].value > 10 && +inputs[5].value < 20){
+        results[3].textContent = "Число входить в діапазон від 10 до 20"
+    }
+    else{
+        results[3].textContent = "Число не входить в діапазон від 10 до 20"
+    }
+}
 
 //5
 function ex5(){
-    let name = inputs[4].value
-    let email = inputs[5].value
-    let password = inputs[6].value
+    let name = inputs[6].value
+    let email = inputs[7].value
+    let password = inputs[8].value
     if(name.length >= 3 && email.includes('@') && password.length >= 6){
         results[4].textContent = 'Дякуємо, дані передано'
     }
